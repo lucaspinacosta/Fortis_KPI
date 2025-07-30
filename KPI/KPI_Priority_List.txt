@@ -1,0 +1,38 @@
+======================== JUNE 2025 =========================
+TE02-002 : Real-time data collection with latency < 150 ms
+
+TE02-005 : Successful conversion of raw sensor data into ROS messages with 99% accuracy
+
+TE02-006 : Accurate control of hardware with response time < 200 ms
+
+TE02-008 : Real-time error reporting with 95% accuracy and response time < 500 ms
+
+TE02-009 : Optimal path computation with a success rate of 90% and computation time < 250 ms
+
+TE02-010 : Dynamic path adjustment with obstacle avoidance success rate of 95% and response time < 250 ms
+
+TE02-011 : Path tracking with deviation < 0.25 m from planned trajectory
+
+TE02-013 : Robot base_link position estimation accuracy within 25 cm and orientation accuracy within 5 degrees
+
+TE02-015 : Sensor fusion improving localisation precision by > 10% compared to single-sensor approaches
+
+TE02-017 : Optimal path computation with a success rate > 90% and computation time < 1 s
+
+TE02-018 : Achieve desired end-effector position within 0.15 m accuracy.
+
+TE02-019 : Secure object grasp success rate > 95%.
+
+TE02-021 : Task execution success rate > 90%
+
+TE02-022 : Successful mapping of robot capabilities to actions with accuracy > 95%
+
+TE02-023 : Providing appropriate actions or acknowledgements with response time < 200 ms
+
+TE02-028 : Timely feedback on robot/human actions with response time < 2 second
+
+TE02-031 : Dynamic task reallocation success rate > 90%
+
+
+
+
