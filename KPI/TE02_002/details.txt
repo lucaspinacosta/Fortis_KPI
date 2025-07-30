@@ -1,0 +1,6 @@
+Smart KPI
+
+    Real-time data collection with latency < 150 ms
+
+Feature
+    The firmware must provide real-time control capabilities over ROS to ensure the accurate and timely execution of tasks.

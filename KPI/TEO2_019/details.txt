@@ -1,0 +1,7 @@
+Smart KPI
+
+    Secure object grasp success rate > 95%.
+
+Feature
+    
+    Manages the opening and closing of grippers, ensuring secure handling of objects.

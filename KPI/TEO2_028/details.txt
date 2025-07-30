@@ -1,0 +1,7 @@
+Smart KPI
+
+    Timely feedback on robot/human actions with response time < 2 second
+
+Feature
+    
+    Continuously monitors the status of all robots, human workers, and ongoing tasks, updating the digital twin with the latest operational data

@@ -1,0 +1,7 @@
+Smart KPI
+
+    Sensor fusion improving localisation precision by > 10% compared to single-sensor approaches
+
+Feature
+    
+    Integrates data from multiple sensors (LiDAR, IMU, cameras, GNSS, etc.) to improve accuracy and robustness.

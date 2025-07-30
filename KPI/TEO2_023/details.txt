@@ -1,0 +1,7 @@
+Smart KPI
+
+    Providing appropriate actions or acknowledgements with response time < 200 ms
+
+Feature
+    
+    Plan the robotic actions (task-level) to adapt to the human presence (proximity within the interaction) based on the scene status and the human status

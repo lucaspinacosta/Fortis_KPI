@@ -1,0 +1,7 @@
+Smart KPI
+
+    Achieve desired end-effector position within 0.15 m accuracy.
+
+Feature
+    
+    Calculates the necessary joint angles to achieve a desired end-effector position and orientation

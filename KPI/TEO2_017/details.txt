@@ -1,0 +1,7 @@
+Smart KPI
+
+    Optimal path computation with a success rate > 90% and computation time < 1 s
+
+Feature
+    
+    Utilises algorithms to plan and generate safe and efficient paths for the robotic arms, considering the environment and any obstacles.

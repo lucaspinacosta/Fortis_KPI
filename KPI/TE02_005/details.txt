@@ -1,0 +1,7 @@
+Smart KPI
+
+    Successful conversion of raw sensor data into ROS messages with 99% accuracy
+
+Feature
+
+    Converts raw sensor data into ROS-compatible messages, allowing for easy integration with ROS-based software components.

@@ -1,0 +1,7 @@
+Smart KPI
+
+    Task execution success rate > 90%
+
+Feature
+
+    Executes predefined or dynamically generated manipulation tasks, such as picking, placing, or assembling

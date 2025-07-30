@@ -1,0 +1,7 @@
+Smart KPI
+
+    Accurate control of hardware with response time < 200 ms
+
+Feature
+    
+    Controls low-level hardware, including motors, grippers, etc., using standard ROS messages.

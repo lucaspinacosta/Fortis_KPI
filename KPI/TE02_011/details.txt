@@ -1,0 +1,7 @@
+Smart KPI
+
+    Path tracking with deviation < 0.25 m from planned trajectory
+
+Feature
+    
+    Generates motion commands (e.g., linear and angular velocity) for the robot to follow the planned paths accurately.

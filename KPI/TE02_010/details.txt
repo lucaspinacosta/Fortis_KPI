@@ -1,0 +1,7 @@
+Smart KPI
+
+    Dynamic path adjustment with obstacle avoidance success rate of 95% and response time < 250 ms
+
+Feature
+    
+    Uses sensor data to detect and avoid obstacles dynamically, recalculating global and local paths as needed.

@@ -1,0 +1,7 @@
+Smart KPI
+
+    Robot base_link position estimation accuracy within 25 cm and orientation accuracy within 5 degrees
+
+Feature
+    
+    Estimates the robot’s position and orientation within the generated map (global odometry).

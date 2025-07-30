@@ -1,0 +1,7 @@
+Smart KPI
+
+    Successful mapping of robot capabilities to actions with accuracy > 95%
+
+Feature
+    
+    Model the robot capablities following the available controllable hardware onboard the robot. this model will be changing based on the status of the hardware. This model also will be served via dedicated API for other toolkits to understand what the robot can do.
