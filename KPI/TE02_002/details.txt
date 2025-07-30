@@ -4,3 +4,26 @@ Smart KPI
 
 Feature
     The firmware must provide real-time control capabilities over ROS to ensure the accurate and timely execution of tasks.
+
+
+Conclusion:
+    The firmware satisfies the “Real-time data collection with latency < 150 ms” KPI for the joints position topic. Messages are published at an average interval of ~100 ms (10 Hz), with all observed intervals between 96 ms and 103 ms (peak-to-peak jitter 7 ms, 1-σ jitter ≈ 1.6 ms), below the 150 ms threshold.
+
+Methodology: 
+    1. Launched the firmware and ROS master with the telehandler joint‐state publisher active.  
+    2. Ran:
+        rostopic hz /ugv0/telehandler/joints
+    3. Collected a window of 120 samples to compute:
+    - Average publish rate (Hz) → average period (ms)  
+    - Minimum interval  
+    - Maximum interval  
+    - Standard deviation of intervals  
+    4. Verified that under these nominal conditions all intervals stayed < 150 ms.
+
+Evidence:
+    - Prompt and command used: `rostopic hz /ugv0/telehandler/joints`
+    hz_joints.png
+
+    average rate: 9.991 Hz
+    min: 0.096 s max: 0.103 s
+    std dev: 0.00164 s window: 120

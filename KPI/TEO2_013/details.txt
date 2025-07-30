@@ -5,3 +5,37 @@ Smart KPI
 Feature
     
     Estimates the robot’s position and orientation within the generated map (global odometry).
+
+
+Methodology: 
+
+    To evaluate the overall improvement in precision achieved by our multi-sensor localisation approach when compared to single sensor, in this case GPS measurements, across different signal conditions (Float, Single, and Fix), we computed the variance in both the X and Y dimensions for each case and derived the corresponding percentage improvement in precision as:
+    Improvement (%) = ((varGPS - varOdom) / varGPS) × 100
+
+
+    However, as the absolute variance levels vary significantly between cases - particularly with Float showing much higher variability than Fix - a simple arithmetic mean of the percentage improvements would not provide a representative or meaningful summary. Instead, we adopted a weighted mean approach, where each percentage improvement is weighted by the respective variance observed in the GPS data. This method ensures that each case contributes proportionally to its relative impact on the overall system precision. The use of GPS variance as a weighting factor reflects the intuition that improvements in more uncertain conditions (e.g., Float) should have a greater influence on the aggregated result than improvements in already precise conditions (e.g., Fix).
+    Therefore, we weight each case by the importance or magnitude of the original GPS variance:
+    Weighted Mean = (Σ w_i · Improvement_i) / (Σ w_i),  where w_i = var_GPS(i)
+
+
+    Applying this method, we observed an overall weighted precision improvement of approximately 99.5%, indicating that our multi-sensor solution substantially enhances precision, especially in the less reliable GPS modes.
+
+Evidence:
+
+    Float:
+    varGPSFIX = 0.003089661023976
+    varOdom = 7.883866185009957e-06
+    improvement in precision = 99.74%
+
+    Single:
+    varGPSFIX = 8.777017518949097e-05
+    varOdom = 5.204271528522903e-06
+    improvement in precision = 94.07%
+
+    Fix:
+    varGPSFIX = 1.816275368493939e-06
+    varOdom = 4.862257429596031e-06
+    improvement in precision = -167.7%
+
+
+Data Validations: https://drive.google.com/drive/u/1/folders/1XCkdKWKWt3SY9dUSpeEjeWa8WynDsJVO
