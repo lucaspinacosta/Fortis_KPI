@@ -1,0 +1,7 @@
+Smart KPI
+
+    Successful parsing of J1939 CAN messages with a success rate of 100%
+
+Feature
+    
+    Support robust communication protocols, such as J1939 CAN, to interface with heavy-duty machinery and other hardware components.
