@@ -1,2 +1,9 @@
-Passed tests,Total tests,Success rate
-5,5,100.00%
+Test Number,Position Error (m),Result
+1,0.012960314224987196,PASS
+2,0.03191631349417285,PASS
+3,0.01370515949041046,PASS
+4,0.024439880046313332,PASS
+5,0.019308607201430773,PASS
+
+Passed tests,Total tests,Success rate (%)
+5,5,100.00
