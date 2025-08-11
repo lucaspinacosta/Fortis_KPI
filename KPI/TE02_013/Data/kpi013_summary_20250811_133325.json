@@ -1,0 +1,7 @@
+{
+  "position_threshold_m": 0.25,
+  "attempts": 560,
+  "successes": 560,
+  "success_rate": 100.0,
+  "pass": true
+}
