@@ -1,0 +1,34 @@
+# sensors.yaml — map raw topics to expected converted topics and types
+# Fields:
+#   id: short sensor identifier
+#   raw_topic: string
+#   converted_topic: string
+#   converted_type: string (e.g., sensor_msgs/PointCloud2)
+#   many_to_one / one_to_many: optional booleans
+#   use_arrival_time: bool
+#   header_field: path to timestamp in the converted message (default 'header.stamp')
+#   required: include in overall pass/fail
+#
+sensors:
+  - id: lidar
+    raw_topic: /ugv0/telehandler/pointcloud_fusion_node/fused_cloud/points_filtered
+    converted_topic: /ugv0/telehandler/pointcloud_fusion_node/fused_cloud/points_filtered
+    converted_type: sensor_msgs/PointCloud2
+    many_to_one: true
+    use_arrival_time: false
+    required: true
+
+  - id: gps
+    raw_topic: /ugv0/telehandler/gps/fix
+    converted_topic: /ugv0/telehandler/gps/fix
+    converted_type: sensor_msgs/NavSatFix
+    one_to_many: false
+    use_arrival_time: false
+    required: true
+
+  - id: imu
+    raw_topic: /ugv0/telehandler/imu/wit/imu
+    converted_topic: /ugv0/telehandler/imu/wit/imu
+    converted_type: sensor_msgs/Imu
+    use_arrival_time: true
+    required: true

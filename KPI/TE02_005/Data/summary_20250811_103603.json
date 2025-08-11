@@ -1,0 +1,27 @@
+{
+  "threshold": 99.0,
+  "overall_attempts": 9197,
+  "overall_successes": 9197,
+  "overall_success_rate": 100.0,
+  "per_sensor": {
+    "lidar": {
+      "attempts": 191,
+      "successes": 191,
+      "success_rate": 100.0,
+      "required": true
+    },
+    "gps": {
+      "attempts": 293,
+      "successes": 293,
+      "success_rate": 100.0,
+      "required": true
+    },
+    "imu": {
+      "attempts": 8713,
+      "successes": 8713,
+      "success_rate": 100.0,
+      "required": true
+    }
+  },
+  "pass": true
+}

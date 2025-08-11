@@ -1,0 +1,15 @@
+<launch>
+  <arg name="sensors_config" default="$(find teo2_005_validator_ros1)/config/sensors.yaml"/>
+  <arg name="tolerance_ms" default="50"/>
+  <arg name="threshold" default="99.0"/>
+  <arg name="queue_size" default="100"/>
+  <arg name="log_dir" default="/tmp/teo2_005_logs"/>
+
+  <node pkg="teo2_005_validator_ros1" type="conversion_validator.py" name="conversion_validator" output="screen">
+    <param name="sensors_config" value="$(arg sensors_config)"/>
+    <param name="tolerance_ms" value="$(arg tolerance_ms)"/>
+    <param name="threshold" value="$(arg threshold)"/>
+    <param name="queue_size" value="$(arg queue_size)"/>
+    <param name="log_dir" value="$(arg log_dir)"/>
+  </node>
+</launch>
