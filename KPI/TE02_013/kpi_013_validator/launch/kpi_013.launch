@@ -1,0 +1,7 @@
+
+<launch>
+    <arg name="config_file" default="$(find kpi_013_validator)/config/kpi_013.yaml"/>
+    <node pkg="kpi_013_validator" type="kpi_013_pose_accuracy.py" name="kpi_013_pose_accuracy" output="screen">
+        <param name="config_file" value="$(arg config_file)"/>
+    </node>
+</launch>

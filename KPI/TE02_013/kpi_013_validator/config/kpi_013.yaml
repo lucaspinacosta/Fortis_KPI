@@ -1,0 +1,4 @@
+estimated_topic: /ugv0/telehandler/odometry/navsat
+ground_truth_topic: /ugv0/telehandler/lio_sam/mapping/odometry
+position_threshold_m: 0.25
+log_dir: /tmp/kpi_013_logs
