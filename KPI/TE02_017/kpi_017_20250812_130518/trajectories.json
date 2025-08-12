@@ -1,0 +1,26 @@
+{
+  "before": {
+    "point_count": 19,
+    "duration_s": 47.790514383,
+    "joint_names": [
+      "base_to_cylinder_joint",
+      "cylinder_to_arm1_joint",
+      "arm_link1_to_arm2_joint",
+      "arm_link2_to_arm3_joint",
+      "arm_link3_to_arm4_joint",
+      "arm_link4_to_armFork_joint"
+    ]
+  },
+  "after": {
+    "point_count": 23,
+    "duration_s": 54.260386287,
+    "joint_names": [
+      "base_to_cylinder_joint",
+      "cylinder_to_arm1_joint",
+      "arm_link1_to_arm2_joint",
+      "arm_link2_to_arm3_joint",
+      "arm_link3_to_arm4_joint",
+      "arm_link4_to_armFork_joint"
+    ]
+  }
+}

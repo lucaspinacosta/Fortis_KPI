@@ -1,0 +1,6 @@
+timestamp,event_type,message
+2025-08-12T13:05:27.339165,replan,Replan succeeded.
+2025-08-12T13:05:27.340658,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:05:31.629308,collision,Predicted collision at trajectory point 4.
+2025-08-12T13:05:31.630598,collision,Collision detected/predicted! Stopping and triggering replan.
+2025-08-12T13:05:31.781846,replan,Replan succeeded.

@@ -1,0 +1,7 @@
+
+<launch>
+    <arg name="config_file" default="$(find kpi_017_logger)/config/kpi_017.yaml"/>
+    <node pkg="kpi_017_logger" type="kpi_017_logger.py" name="kpi_017_logger" output="screen">
+        <param name="config_file" value="$(arg config_file)"/>
+    </node>
+</launch>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>kpi_017_logger</name>
+  <version>0.1.0</version>
+  <description>KPI 017 Logger for ROS Noetic</description>
+  <maintainer email="maintainer@example.com">KPI Validation Team</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>rosbag</build_depend>
+  <build_depend>rosgraph_msgs</build_depend>
+  <build_depend>moveit_msgs</build_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>rosbag</exec_depend>
+  <exec_depend>rosgraph_msgs</exec_depend>
+  <exec_depend>moveit_msgs</exec_depend>
+</package>

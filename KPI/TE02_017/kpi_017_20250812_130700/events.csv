@@ -1,0 +1,61 @@
+timestamp,event_type,message
+2025-08-12T13:07:08.567099,replan,Replan succeeded.
+2025-08-12T13:07:08.568679,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:11.418551,replan,Replan succeeded.
+2025-08-12T13:07:11.419846,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:14.424343,replan,Replan succeeded.
+2025-08-12T13:07:14.425721,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:18.631570,replan,Replan succeeded.
+2025-08-12T13:07:18.632961,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:21.824547,replan,Replan succeeded.
+2025-08-12T13:07:21.826922,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:24.816732,replan,Replan succeeded.
+2025-08-12T13:07:24.818388,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:27.828946,replan,Replan succeeded.
+2025-08-12T13:07:27.830466,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:30.845762,replan,Replan succeeded.
+2025-08-12T13:07:30.846833,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:33.748599,replan,Replan succeeded.
+2025-08-12T13:07:33.749966,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:36.754571,replan,Replan succeeded.
+2025-08-12T13:07:36.756511,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:39.739209,replan,Replan succeeded.
+2025-08-12T13:07:39.741057,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:42.740918,replan,Replan succeeded.
+2025-08-12T13:07:42.741973,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:45.744441,replan,Replan succeeded.
+2025-08-12T13:07:45.746169,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:48.767232,replan,Replan succeeded.
+2025-08-12T13:07:48.768733,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:51.646742,replan,Replan succeeded.
+2025-08-12T13:07:51.648095,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:54.654145,replan,Replan succeeded.
+2025-08-12T13:07:54.656127,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:07:57.554283,replan,Replan succeeded.
+2025-08-12T13:07:57.555232,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:08:00.555396,replan,Replan succeeded.
+2025-08-12T13:08:00.557116,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:08:03.570258,replan,Replan succeeded.
+2025-08-12T13:08:03.572072,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:08:06.470365,replan,Replan succeeded.
+2025-08-12T13:08:06.471735,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:08:09.474190,replan,Replan succeeded.
+2025-08-12T13:08:09.476097,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:08:12.470145,replan,Replan succeeded.
+2025-08-12T13:08:12.471860,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:08:15.365443,replan,Replan succeeded.
+2025-08-12T13:08:15.367072,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:08:18.376473,replan,Replan succeeded.
+2025-08-12T13:08:18.378071,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:08:21.385072,replan,Replan succeeded.
+2025-08-12T13:08:21.386371,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:08:24.401514,replan,Replan succeeded.
+2025-08-12T13:08:24.402900,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:08:27.394974,replan,Replan succeeded.
+2025-08-12T13:08:27.397145,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:08:45.607318,replan,Replan succeeded.
+2025-08-12T13:08:45.608984,replan,Replan succeeded after stuck detection. Restarting execution.
+2025-08-12T13:08:47.991875,collision,Predicted collision at trajectory point 3.
+2025-08-12T13:08:47.993340,collision,Collision detected/predicted! Stopping and triggering replan.
+2025-08-12T13:08:48.112803,replan,Replan succeeded.
+2025-08-12T13:08:48.936258,replan,Replan succeeded. Restarting execution.
