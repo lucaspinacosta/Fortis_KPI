@@ -1,0 +1,7 @@
+Smart KPI
+
+    Robot Pose Tracking
+
+Feature
+    
+    Provides real-time tracking of the telehandler pose and relevant machine joints to support safe and accurate manipulation.
