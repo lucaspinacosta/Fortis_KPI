@@ -4,4 +4,5 @@ Smart KPI
 
 Feature
     
+    KPI: Real-time telehandler arm pose tracking with accuracy > 95% and latency < 200 ms
     Provides real-time tracking of the telehandler pose and relevant machine joints to support safe and accurate manipulation.
