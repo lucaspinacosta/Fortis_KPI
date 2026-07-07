@@ -1,8 +1,11 @@
 metric,latency_ms,accuracy_pct,mae,samples,status,reason
-joint:arm_link1_to_arm2_joint,,,,0,FAIL,No aligned hardware and ROS samples
-joint:arm_link2_to_arm3_joint,,,,0,FAIL,No aligned hardware and ROS samples
-joint:arm_link3_to_arm4_joint,,,,0,FAIL,No aligned hardware and ROS samples
-joint:arm_link4_to_armFork_joint,,,,0,FAIL,No aligned hardware and ROS samples
-joint:base_to_cylinder_joint,,,,0,FAIL,No aligned hardware and ROS samples
-joint:cylinder_to_arm1_joint,,,,0,FAIL,No aligned hardware and ROS samples
-pose:tf_tracking,,,,0,FAIL,No TF pose available for base_link -> winch_link
+joint:arm_link1_to_arm2_joint,0.0,99.9921766203572,0.00020490938069356483,1469,PASS,
+joint:arm_link2_to_arm3_joint,0.0,99.9921766203572,0.00020490938069356483,1469,PASS,
+joint:arm_link3_to_arm4_joint,0.0,99.9921766203572,0.00020490938069356483,1469,PASS,
+joint:arm_link4_to_armFork_joint,0.0,99.98787734569335,6.178142360499578e-05,1469,PASS,
+joint:base_to_cylinder_joint,0.0,99.98548499990483,0.00018772088736021918,1469,PASS,
+joint:basket_crane_link_to_basket_link,,,,0,FAIL,No aligned hardware and ROS samples
+joint:basket_link_to_armFork_joint,0.0,99.95459357894788,0.0004538765710520404,1469,PASS,
+joint:cylinder_to_arm1_joint,0.0,99.99259066440865,3.8019282665658204e-05,1469,PASS,
+joint:winch_link_to_basket_crane_link,0.0,99.90351396181035,0.005735472646028991,1469,PASS,
+pose:tf_tracking,104.62678999999994,,,1449,PASS,"rate_hz=10.01, max_gap_ms=101.21, stale_ratio=0.027"
