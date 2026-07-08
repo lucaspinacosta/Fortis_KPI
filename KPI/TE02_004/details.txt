@@ -1,0 +1,7 @@
+Smart KPI
+
+    Precise execution of commands with 100% accuracy compared to official remote controller
+
+
+Feature
+    The firmware should be scalable to support different robotic platforms and varying hardware configurations.

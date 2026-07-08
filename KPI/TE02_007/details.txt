@@ -1,0 +1,9 @@
+Smart KPI
+
+    Successful hardware abstraction with a 90% compatibility rate across different CAN-enabled machines.
+
+Feature
+    Provides a hardware abstraction layer that standardises communication with different sensors and actuators, simplifying the integration process.
+
+
+

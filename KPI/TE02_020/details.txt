@@ -1,0 +1,6 @@
+Smart KPI
+
+    Collision avoidance success rate > 95% with response time < 250 ms
+
+Feature
+    Detects potential collisions with obstacles and adjusts the planned path to avoid them.

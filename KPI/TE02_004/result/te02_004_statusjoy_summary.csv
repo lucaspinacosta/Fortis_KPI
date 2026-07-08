@@ -1,0 +1,9 @@
+metric,value,status,reason
+raw_statusjoy_samples,43603,INFO,
+observed_values,"[0, 1, 128]",PASS,unexpected=[]
+stable_state_segments,18,INFO,
+required_transitions,15,INFO,15 repetitions require at least 15 state changes
+detected_transitions,17,PASS,
+valid_transitions,17,PASS,invalid=0
+transition_success_rate_pct,100.0,PASS,expected 100%
+TE02_004_overall,PASS,PASS,17/17 transitions are valid; success rate is 100%.

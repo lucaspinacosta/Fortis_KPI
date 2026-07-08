@@ -1,0 +1,7 @@
+Smart KPI
+
+    Real-time error reporting with 95% accuracy and response time < 500 ms
+
+Feature
+    Monitors the status of connected hardware components and reports any errors or malfunctions to the ROS environment for further handling.
+
