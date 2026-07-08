@@ -1,0 +1,6 @@
+Smart KPI
+
+    Successful reception and processing of ROS action requests with a success rate > 90%
+
+Feature
+    Receive ROS Action Request

@@ -1,0 +1,10 @@
+metric,value,status,reason
+total_requests,30,INFO,
+server_available_requests,30,PASS,
+accepted_requests,30,PASS,accepted_rate_pct=100.00
+result_received_requests,30,PASS,result_received_rate_pct=100.00
+communication_successful_requests,30,PASS,
+communication_success_rate_pct,100.0,PASS,threshold>90.0%
+action_result_successful_requests_diagnostic,30,INFO,action_result_success_rate_pct=100.00; not used for KPI pass/fail
+latency_p95_ms,901.7817713999999,INFO,
+TE02_026_overall,PASS,PASS,30/30 action communication transactions completed
