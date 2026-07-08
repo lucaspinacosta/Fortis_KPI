@@ -1,0 +1,5 @@
+metric,value,status,reason
+passed_checks,15,INFO,
+total_checks,15,INFO,
+compatibility_rate_pct,100.0,PASS,threshold=90.0%
+TE02_007_overall,PASS,PASS,15/15 checks passed
