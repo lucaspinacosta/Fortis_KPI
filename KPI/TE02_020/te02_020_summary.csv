@@ -1,0 +1,14 @@
+metric,value,status,details
+total_trials,10,INFO,
+successful_avoidance_trials,10,PASS,threshold>95.0%
+avoidance_success_rate_pct,100.0,PASS,threshold>95.0%
+planning_successful_trials,10,INFO,MoveIt error_code == 1
+trajectory_collision_trials,0,PASS,invalid waypoints from /check_state_validity
+response_time_mode,detection,INFO,detection = obstacle apply + /check_state_validity; plan = obstacle apply + /plan_kinematic_path
+response_threshold_ms,250.0,INFO,
+response_time_mean_ms,2.011,INFO,
+response_time_median_ms,1.587,INFO,
+response_time_p95_ms,3.852,PASS,threshold<250.0 ms
+response_time_max_ms,4.976,PASS,threshold<250.0 ms
+response_time_over_threshold_trials,0,PASS,
+TE02_020_overall,PASS,PASS,10/10 trials successful
