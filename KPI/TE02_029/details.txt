@@ -1,0 +1,7 @@
+Smart KPI
+
+    Digital twin update frequency < 5 seconds
+
+Feature
+    
+    Maintains synchronisation with the digital twin, ensuring that the virtual model accurately reflects the current state of the construction site and updates the visualisation interface of the FMS

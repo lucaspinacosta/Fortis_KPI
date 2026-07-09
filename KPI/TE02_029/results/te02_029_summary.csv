@@ -1,0 +1,23 @@
+metric,value,status,details
+clock_sync_simulation_machine,None,INFO,rms_offset_ms=1.709817; root_dispersion_ms=1.290345; leap_status=Normal
+clock_sync_real_machine,mitac-telehandler-0,INFO,rms_offset_ms=4.701989; root_dispersion_ms=4.251608; leap_status=Normal
+collection_duration_s,120.048,INFO,
+threshold_ms,5000.0,INFO,
+sync_status_topic,/digital_twin/joint_state_sync_status,INFO,
+joints_sim_topic,/joints_sim,INFO,
+real_joint_states_topic,/joint_states,INFO,
+sync_status_samples,1197,PASS,min_required=30
+sync_status_parse_errors,0,PASS,
+negative_latency_samples,0,PASS,
+latency_min_ms,4.805,INFO,
+latency_mean_ms,29.483,INFO,
+latency_median_ms,16.994,INFO,
+latency_p95_ms,78.744,PASS,threshold<5000.0 ms
+latency_max_ms,526.462,PASS,threshold<5000.0 ms
+samples_over_threshold,0,PASS,
+success_rate_pct,100.0,PASS,
+joints_sim_samples,2367,PASS,
+joints_sim_max_gap_s,0.417492,INFO,
+real_joint_states_samples,1194,INFO,
+real_joint_states_max_gap_s,0.375075,INFO,
+TE02_029_overall,PASS,PASS,1197 valid Unity sync latency samples; max_latency_ms=526.462
