@@ -1,12 +1,11 @@
 Panels:
   - Class: rviz_common/Displays
-    Help Height: 0
+    Help Height: 70
     Name: Displays
     Property Tree Widget:
-      Expanded:
-        - /MotionPlanning1/Scene Robot1
+      Expanded: ~
       Splitter Ratio: 0.5
-    Tree Height: 647
+    Tree Height: 122
   - Class: rviz_common/Views
     Expanded:
       - /Current View1
@@ -203,7 +202,7 @@ Visualization Manager:
             {}
       Update Interval: 0
       Value: true
-    - Alpha: 1
+    - Alpha: 0.6499999761581421
       Class: rviz_default_plugins/RobotModel
       Collision Enabled: true
       Description File: ""
@@ -440,11 +439,11 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-        Loop Animation: false
+        Loop Animation: true
         Robot Alpha: 0.5
         Robot Color: 150; 50; 150
         Show Robot Collision: false
-        Show Robot Visual: false
+        Show Robot Visual: true
         Show Trail: false
         State Display Time: 0.05 s
         Trail Step Size: 1
@@ -464,7 +463,7 @@ Visualization Manager:
         Interactive Marker Size: 0
         Joint Violation Color: 255; 0; 255
         Planning Group: Arm_Group
-        Query Goal State: false
+        Query Goal State: true
         Query Start State: false
         Show Workspace: false
         Start State Alpha: 1
@@ -475,7 +474,7 @@ Visualization Manager:
         Scene Alpha: 0.75
         Scene Color: 50; 230; 50
         Scene Display Time: 0.009999999776482582
-        Show Scene Geometry: true
+        Show Scene Geometry: false
         Voxel Coloring: Z-Axis
         Voxel Rendering: Occupied Voxels
       Scene Robot:
@@ -578,15 +577,15 @@ Visualization Manager:
             Value: true
         Robot Alpha: 0.44999998807907104
         Show Robot Collision: false
-        Show Robot Visual: false
+        Show Robot Visual: true
       Value: true
       Velocity_Scaling_Factor: 0.1
     - Class: rviz_default_plugins/MarkerArray
       Enabled: true
       Name: TE02_020 KPI Markers
       Namespaces:
-        te02_020_live_obstacle: true
-        te02_020_live_status: true
+        te02_020_obstacle: true
+        te02_020_status: true
       Topic:
         Depth: 5
         Durability Policy: Volatile
@@ -595,17 +594,17 @@ Visualization Manager:
         Value: /te02_020/markers
       Value: true
     - Class: rviz_default_plugins/MarkerArray
-      Enabled: true
+      Enabled: false
       Name: Planning Scene Path
       Namespaces:
-        traj_path: true
+        {}
       Topic:
         Depth: 5
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /action/trajectory/path_markers
-      Value: true
+        Value: /move_group/display_contacts
+      Value: false
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -625,39 +624,39 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 9.547621726989746
+      Distance: 18.053285598754883
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 9.79953670501709
-        Y: -2.359691858291626
-        Z: 1.5126456022262573
+        X: 0.20196062326431274
+        Y: -1.1068376302719116
+        Z: 0.29909101128578186
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.14500170946121216
+      Pitch: 0.08000098913908005
       Target Frame: base_link
       Value: Orbit (rviz_default_plugins)
-      Yaw: 4.469200611114502
+      Yaw: 1.0481252670288086
     Saved: ~
 Window Geometry:
   Displays:
-    collapsed: true
-  Height: 1571
-  Hide Left Dock: true
+    collapsed: false
+  Height: 1057
+  Hide Left Dock: false
   Hide Right Dock: false
   MotionPlanning:
-    collapsed: true
+    collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000002b4000005b9fc0200000004fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000004f00fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670000000048000001dd000001ca00fffffffb000000100044006900730070006c006100790073000000022c000002d0000000f300fffffffb0000000a005600690065007700730000000503000000fe000000c500ffffff00000a00000005b900000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000100000000000002b4000003c7fc0200000004fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000004100fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e0067010000003d000001ea0000017d00fffffffb000000100044006900730070006c006100790073010000022d000000fd000000c900fffffffb0000000a005600690065007700730100000330000000d4000000a400ffffff000004c6000003c700000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
-    collapsed: true
-  Width: 2560
-  X: 0
-  Y: 0
+    collapsed: false
+  Width: 1920
+  X: 1920
+  Y: 182

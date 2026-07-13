@@ -1,0 +1,18 @@
+metric,value,status,details
+action_name,/action/MoveToPosition,INFO,telehandler_moveit.action.MoveToPosition
+total_trials,10,INFO,
+successful_trials,0,FAIL,threshold>95.0%
+avoidance_success_rate_pct,0.0,FAIL,threshold>95.0%
+response_threshold_ms,250.0,INFO,
+response_time_definition,collision_predicted_to_robot_stopped_for_collision,INFO,controller response from detection to first safety action: zero velocity publication
+obstacle_to_detection_samples,10,INFO,diagnostic only: obstacle injection to collision_predicted
+obstacle_to_detection_p95_ms,516.073,INFO,diagnostic only
+obstacle_to_detection_max_ms,519.79,INFO,diagnostic only
+detection_to_stop_samples,10,PASS,requires collision_predicted and robot_stopped_for_collision events
+detection_to_stop_p95_ms,98.148,PASS,threshold<250.0 ms
+detection_to_stop_max_ms,98.319,PASS,threshold<250.0 ms
+replan_successful_trials,1,FAIL,requires replan_succeeded and trajectory_replaced events
+action_successful_trials,0,FAIL,action completes after avoidance
+hit_before_stop_trials,0,PASS,from optional hit/contact/impact diagnostics
+response_over_threshold_trials,0,PASS,
+TE02_020_overall,FAIL,FAIL,0/10 trials successful
