@@ -5,8 +5,8 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /MotionPlanning1/Scene Robot1
-      Splitter Ratio: 0.5
-    Tree Height: 647
+      Splitter Ratio: 0.5014492869377136
+    Tree Height: 694
   - Class: rviz_common/Views
     Expanded:
       - /Current View1
@@ -34,175 +34,21 @@ Visualization Manager:
       Reference Frame: <Fixed Frame>
       Value: true
     - Class: rviz_default_plugins/TF
-      Enabled: true
+      Enabled: false
       Filter (blacklist): ""
       Filter (whitelist): ""
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        arm_fork:
-          Value: true
-        arm_link1:
-          Value: true
-        arm_link2:
-          Value: true
-        arm_link3:
-          Value: true
-        arm_link4:
-          Value: true
-        arm_link_fork:
-          Value: true
-        base_link:
-          Value: true
-        base_link_lio:
-          Value: true
-        basket_crane_link:
-          Value: true
-        basket_link:
-          Value: true
-        camera_link_optical:
-          Value: true
-        center_lslidar:
-          Value: true
-        cylinder_link:
-          Value: true
-        cylinder_link_sense:
-          Value: true
-        default_cam:
-          Value: true
-        gps_link:
-          Value: true
-        headbox_link:
-          Value: true
-        imu_link:
-          Value: true
-        joint0_link:
-          Value: true
-        joint_a:
-          Value: true
-        joint_b:
-          Value: true
-        joint_c:
-          Value: true
-        joint_d:
-          Value: true
-        left_lslidar:
-          Value: true
-        left_stabilizer_base_link:
-          Value: true
-        left_stabilizer_leg_link:
-          Value: true
-        left_stabilizer_shield_link:
-          Value: true
-        right_lslidar:
-          Value: true
-        right_stabilizer_base_link:
-          Value: true
-        rigth_stabilizer_leg_link:
-          Value: true
-        rigth_stabilizer_shield_link:
-          Value: true
-        rotation_link:
-          Value: true
-        sensing_kit:
-          Value: true
-        sensing_kit_link:
-          Value: true
-        wheels_link:
-          Value: true
-        winch_base_link:
-          Value: true
-        winch_link:
-          Value: true
-        zed_camera_center:
-          Value: true
-        zed_camera_link:
-          Value: true
-        zed_imu_link:
-          Value: true
-        zed_left_camera_frame:
-          Value: true
-        zed_left_camera_optical_frame:
-          Value: true
-        zed_link:
-          Value: true
-        zed_right_camera_frame:
-          Value: true
-        zed_right_camera_optical_frame:
-          Value: true
       Marker Scale: 0.4000000059604645
       Name: TF
       Show Arrows: true
       Show Axes: true
       Show Names: false
       Tree:
-        base_link:
-          base_link_lio:
-            cylinder_link_sense:
-              joint0_link:
-                sensing_kit:
-                  camera_link_optical:
-                    {}
-                  center_lslidar:
-                    {}
-                  gps_link:
-                    default_cam:
-                      {}
-                  imu_link:
-                    {}
-          cylinder_link:
-            arm_link1:
-              arm_link2:
-                arm_link3:
-                  arm_link4:
-                    arm_link_fork:
-                      arm_fork:
-                        {}
-                      basket_link:
-                        basket_crane_link:
-                          winch_link:
-                            {}
-                        winch_base_link:
-                          {}
-                    joint_d:
-                      {}
-                  joint_c:
-                    {}
-                joint_b:
-                  {}
-              joint_a:
-                {}
-            headbox_link:
-              {}
-            rotation_link:
-              sensing_kit_link:
-                left_lslidar:
-                  {}
-                right_lslidar:
-                  {}
-                zed_link:
-                  zed_camera_link:
-                    zed_camera_center:
-                      zed_left_camera_frame:
-                        zed_imu_link:
-                          {}
-                        zed_left_camera_optical_frame:
-                          {}
-                      zed_right_camera_frame:
-                        zed_right_camera_optical_frame:
-                          {}
-          left_stabilizer_shield_link:
-            left_stabilizer_leg_link:
-              left_stabilizer_base_link:
-                {}
-          rigth_stabilizer_shield_link:
-            rigth_stabilizer_leg_link:
-              right_stabilizer_base_link:
-                {}
-          wheels_link:
-            {}
+        {}
       Update Interval: 0
-      Value: true
+      Value: false
     - Alpha: 1
       Class: rviz_default_plugins/RobotModel
       Collision Enabled: true
@@ -586,7 +432,7 @@ Visualization Manager:
       Name: TE02_020 KPI Markers
       Namespaces:
         te02_020_live_obstacle: true
-        te02_020_live_status: true
+        te02_020_live_status: false
       Topic:
         Depth: 5
         Durability Policy: Volatile
@@ -625,39 +471,39 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 9.547621726989746
+      Distance: 17.109514236450195
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 9.79953670501709
-        Y: -2.359691858291626
-        Z: 1.5126456022262573
+        X: 10.744074821472168
+        Y: 2.1593003273010254
+        Z: 0.2906263470649719
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.14500170946121216
+      Pitch: 0.42479777336120605
       Target Frame: base_link
       Value: Orbit (rviz_default_plugins)
-      Yaw: 4.469200611114502
+      Yaw: 2.9342336654663086
     Saved: ~
 Window Geometry:
   Displays:
-    collapsed: true
+    collapsed: false
   Height: 1571
-  Hide Left Dock: true
+  Hide Left Dock: false
   Hide Right Dock: false
   MotionPlanning:
-    collapsed: true
+    collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd0000000100000000000002b4000005b9fc0200000004fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000004f00fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670000000048000001dd000001ca00fffffffb000000100044006900730070006c006100790073000000022c000002d0000000f300fffffffb0000000a005600690065007700730000000503000000fe000000c500ffffff00000a00000005b900000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd000000010000000000000258000005b9fc0200000004fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000004f00fffffffb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e00670100000048000001d5000001ca00fffffffb000000100044006900730070006c0061007900730100000224000002ff000000f300fffffffb0000000a00560069006500770073010000052a000000d7000000c500ffffff000007a1000005b900000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
-    collapsed: true
+    collapsed: false
   Width: 2560
   X: 0
   Y: 0
