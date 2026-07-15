@@ -1,11 +1,11 @@
 trial_id,goal_label,predefined_pose,goal_accepted,goal_accept_ms,obstacle_apply_success,obstacle_apply_ms,obstacle_remove_success,obstacle_remove_ms,injection_trigger_reason,injection_trigger_time_ns,result_received,action_success,action_result_text,obstacle_to_detection_ms,detection_to_stop_ms,replan_response_ms,replan_succeeded_ms,trajectory_replaced_ms,replan_success,hit_before_stop,success,failure_reason
-1,point_B,,True,12.937,True,8.412,True,19.716,feedback_point_6_of_28,1784040817244997810,True,False,Aborting: collision predicted ahead and replan failed.,123.698,0.977,124.235,,,False,False,True,none
-2,point_B,,True,18.426,True,10.26,True,9.551,feedback_point_6_of_29,1784040843822863607,False,False,,34.033,67.249,101.237,,,False,False,True,none
-3,point_B,,True,16.717,True,9.256,True,10.152,feedback_point_6_of_29,1784040855401758314,False,False,,18.457,84.633,102.989,1092.27,1092.933,True,False,True,none
-4,point_B,,True,13.625,True,20.422,True,12.17,feedback_point_6_of_29,1784040867712789242,False,False,,29.348,65.914,95.154,,,False,False,True,none
-5,point_B,,True,14.351,True,17.51,True,5.669,feedback_point_6_of_29,1784040879336452084,False,False,,25.469,76.069,100.83,,,False,False,True,none
-6,point_B,,True,33.114,True,15.855,True,23.495,feedback_point_6_of_28,1784040891981314455,False,False,,24.2,79.894,104.044,,,False,False,True,none
-7,point_B,,True,17.103,True,5.742,True,7.851,feedback_point_6_of_30,1784040904641449647,False,False,,11.817,94.532,106.297,,,False,False,True,none
-8,point_B,,True,6.115,True,4.531,True,5.836,feedback_point_6_of_29,1784040998215165122,False,False,,20.103,78.398,98.415,,,False,False,True,none
-9,point_B,,True,7.939,True,6.813,True,6.058,feedback_point_6_of_29,1784041009297657243,True,False,Aborting: collision predicted ahead and replan failed.,16.27,83.042,99.274,,,False,False,True,none
-10,point_B,,True,5.424,True,6.369,True,6.909,feedback_point_6_of_29,1784041021480404834,True,False,Aborting: collision predicted ahead and replan failed.,14.374,84.14,98.47,,,False,False,True,none
+1,point_B,,True,4.944,True,5.27,True,5.155,feedback_point_8_of_30,1784104276021345779,False,False,,11.066,90.031,100.946,762.145,762.801,True,False,True,none
+2,point_B,,True,50.715,True,25.186,True,66.614,feedback_point_7_of_28,1784104290326561795,False,False,,438.505,67.148,505.607,,,False,False,True,none
+3,point_B,,True,58.312,True,18.724,True,44.737,feedback_point_7_of_28,1784104306185403254,False,False,,42.352,46.52,88.788,857.594,857.845,True,False,True,none
+4,point_B,,True,5.449,True,49.999,True,25.544,feedback_point_8_of_29,1784104340781986487,False,False,,55.698,45.521,101.164,860.162,860.74,True,False,True,none
+5,point_B,,True,6.911,True,3.605,True,5.282,feedback_point_8_of_29,1784104356948997221,False,False,,11.965,89.484,101.406,,,False,False,True,none
+6,point_B,,True,3.451,True,38.62,True,6.473,feedback_point_7_of_28,1784104372571359668,False,False,,39.952,62.175,102.085,765.222,765.649,True,False,True,none
+7,point_B,,True,4.372,True,25.696,True,36.114,feedback_point_8_of_29,1784104390832957562,False,False,,27.121,73.616,100.677,1089.907,1090.257,True,False,True,none
+8,point_B,,True,7.481,True,52.143,True,3.122,feedback_point_8_of_29,1784104407250310689,False,False,,201.359,1.321,201.359,,,False,False,True,none
+9,point_B,,True,35.218,True,24.473,True,7.159,feedback_point_7_of_28,1784104422769928191,False,False,,25.315,70.745,95.995,,,False,False,True,none
+10,point_B,,True,4.658,True,3.962,True,38.308,feedback_point_8_of_30,1784104477093818297,False,False,,15.24,86.751,101.913,923.822,924.199,True,False,True,none

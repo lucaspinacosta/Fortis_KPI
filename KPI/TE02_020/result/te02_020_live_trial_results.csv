@@ -1,0 +1,11 @@
+trial_id,goal_label,predefined_pose,goal_accepted,goal_accept_ms,obstacle_apply_success,obstacle_apply_ms,obstacle_remove_success,obstacle_remove_ms,injection_trigger_reason,injection_trigger_time_ns,result_received,action_success,action_result_text,obstacle_to_detection_ms,detection_to_stop_ms,replan_response_ms,replan_succeeded_ms,trajectory_replaced_ms,replan_success,hit_before_stop,success,failure_reason
+1,point_B,,True,29.967,True,62.533,True,30.457,feedback_point_8_of_29,1784103550257200503,False,False,,64.46,40.178,104.559,953.094,961.299,True,False,True,none
+2,point_B,,True,31.567,True,25.811,True,6.028,feedback_point_8_of_29,1784103568797631420,False,False,,29.886,63.93,93.774,746.135,746.569,True,False,True,none
+3,point_B,,True,4.415,True,4.677,True,5.229,feedback_point_8_of_29,1784103625889484273,False,False,,170.013,71.016,240.935,770.874,771.691,True,False,True,none
+4,point_B,,True,48.176,True,22.12,True,40.112,feedback_point_8_of_29,1784103642818876191,False,False,,39.385,76.363,115.988,,,False,False,True,none
+5,point_B,,True,8.325,True,4.747,True,6.66,feedback_point_7_of_28,1784103659596821241,False,False,,14.247,86.312,100.484,1028.324,1028.796,True,False,True,none
+6,point_B,,True,29.58,True,18.703,True,422.536,feedback_point_8_of_29,1784103677007001884,False,False,,32.568,55.989,88.508,906.039,906.447,True,False,True,none
+7,point_B,,True,6.209,True,47.413,True,65.769,feedback_point_8_of_30,1784103748896034213,False,False,,53.78,47.805,101.513,811.325,811.67,True,False,True,none
+8,point_B,,True,4.344,True,3.852,True,12.188,feedback_point_7_of_28,1784103763588896132,False,False,,28.519,69.301,97.757,914.177,914.701,True,False,True,none
+9,point_B,,True,4.529,True,2.887,True,4.999,feedback_point_8_of_29,1784103818158316322,False,False,,15.05,86.179,101.121,,,False,False,True,none
+10,point_B,,True,5.249,True,6.264,True,5.1,feedback_point_8_of_29,1784103835078965672,False,False,,18.155,84.11,102.171,,,False,False,True,none
