@@ -1,0 +1,19 @@
+metric,value,status,details
+bag_path,/home/lucaspinacosta/mnt/telehandler/criarte_ws/scripts/Fortis_KPI/KPI/TE02_028/results/bag_20260717_140119,INFO,ROS 2 bag used for validation
+status_topic,/ugv/telehandler_0/status,INFO,robot status feedback topic
+status_topic_type,robot_monitor/msg/Status,PASS,expected=robot_monitor/msg/Status
+threshold_s,2.000,INFO,TE02_028 response-time limit
+status_message_count,3767,PASS,min_required=30
+status_duration_s,757.199,INFO,first to last status message timestamp
+status_rate_hz,4.974,INFO,average publication rate
+gap_mean_s,0.201062,INFO,mean inter-message gap
+gap_median_s,0.199998,INFO,median inter-message gap
+gap_p95_s,0.200686,PASS,threshold<2.000 s
+gap_max_s,1.802400,PASS,threshold<2.000 s
+gaps_over_threshold,0,PASS,gap >= 2.000 s
+success_rate_pct,100.0,PASS,status update gaps below threshold
+TE02_028_overall,PASS,PASS,validated from /ugv/telehandler_0/status bag timestamps
+
+
+
+

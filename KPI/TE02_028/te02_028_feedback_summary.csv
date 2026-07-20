@@ -1,0 +1,20 @@
+metric,value,status,details
+threshold_ms,2000.0,INFO,TE02_028 limit
+source_topic,/joint_states,INFO,ROS robot operational feedback source
+digital_twin_feedback_topic,/joints_sim,INFO,Unity digital-twin feedback stream
+sync_samples_total,1197,INFO,/home/lucaspinacosta/mnt/telehandler/criarte_ws/scripts/Fortis_KPI/KPI/TE02_029/te02_029_sync_samples.csv
+valid_sync_samples,1197,PASS,min_required=30
+sync_parse_errors,0,PASS,invalid or unparsable sync samples
+latency_mean_ms,29.483,INFO,source /joint_states timestamp to Unity update timestamp
+latency_median_ms,16.994,INFO,source /joint_states timestamp to Unity update timestamp
+latency_p95_ms,78.744,PASS,threshold<2000.0 ms
+latency_max_ms,526.462,PASS,threshold<2000.0 ms
+samples_over_threshold,0,PASS,latency >= 2000.0 ms
+source_joint_states_samples,1197,PASS,valid source timestamps
+source_max_gap_s,0.104030,PASS,maximum /joint_states source timestamp gap
+joints_sim_samples,2367,PASS,/home/lucaspinacosta/mnt/telehandler/criarte_ws/scripts/Fortis_KPI/KPI/TE02_029/te02_029_joints_sim_samples.csv
+joints_sim_max_gap_s,0.417492,PASS,maximum /joints_sim receive gap
+success_rate_pct,100.0,PASS,valid latency samples below threshold
+human_worker_runtime_timing,not_available,INFO,"Unity worker scripts exist, but no captured worker timing dataset was found in the workspace"
+task_state_runtime_timing,not_available,INFO,No captured task-state timing dataset was found in the workspace
+TE02_028_overall,PASS,PASS,Robot operational feedback path validated; human/task timing noted as unavailable evidence
